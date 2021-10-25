@@ -1,0 +1,116 @@
+/* hw section */
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+.left-block {
+    width: 760px;
+    display: inline-block;
+    background-color: red;
+    vertical-align: top;
+    margin-right: 40px;
+}
+.right-block {
+    width: 360px;
+    display: inline-block;
+    background-color: blue;
+    vertical-align: top;
+}
+
+
+/* flex section */
+.left-wraper {
+    width: 250px;
+    height: 250px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-wraper {
+    width: 250px;
+    height: 250px;
+    background-color: lightseagreen;
+}
+.center-block {
+    width: 250px;
+    height: 250px;
+    background-color: maroon;
+}
+.wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* practice flex */
+.section-container {
+    width: 1170px;
+    margin: 0 auto;
+    background-color: mediumturquoise;
+}
+.block {
+    width: 371px;
+    height: 374px;
+    background-color: olivedrab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block p {
+    width: 250px;
+    background-color: purple;
+    text-align: center;
+}
+.line1 {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 25px; */
+    background-color: yellow;
+    flex-wrap: wrap;
+}
+.line2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: palevioletred;
+}
+.blue-box {
+    width: 88px;
+    height: 88px;
+    background-color: #325DFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* pseudo classes */
+.block:first-child,
+.block:nth-child(2),
+.block:nth-child(3) {
+    margin-bottom: 25px;
+}
+.block:nth-child(2) h3 {
+    color: #fff;
+}
+
+.section-texts {
+    width: 770px;
+    margin: 0 auto;
+    background-color: grey;
+    text-align: center;
+}
+
+/* .block:nth-child(odd) {
+    background-color: blue;
+}
+.block:nth-child(even) {
+    background-color: red;
+} */
+/* .block:nth-child(2n) {
+    background-color: wheat;
+} */
